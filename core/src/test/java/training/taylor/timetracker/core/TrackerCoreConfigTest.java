@@ -19,7 +19,9 @@ import java.util.List;
 public class TrackerCoreConfigTest {
 
     @Autowired
+    @Qualifier("timesheet")
     List<TimeEntry> entries;
+    
 
     @Test
     public void testMe() {
