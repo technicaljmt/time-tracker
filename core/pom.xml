@@ -19,6 +19,14 @@
             <version>${spring.version}</version>
         </dependency>
 
+        <!-- ✅ Add the missing spring-beans dependency -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+            <version>5.3.23</version> <!-- Use the latest stable version if needed -->
+            <scope>test</scope>
+        </dependency>
+
         <!-- Testing -->
         <dependency>
             <groupId>junit</groupId>
